@@ -1,0 +1,71 @@
+h1.logo {
+    position: relative;
+    top: -15px;
+    font-weight : bold;
+    text-align : center;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+nav.topnav {
+    position: relative;
+    top: -90px;
+    height: 80px;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+    background-color: rgb(37, 101, 208);
+}
+
+ul.topul {
+    position: relative;
+    top: -70px;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+li.tofloat {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 20px;
+}
+h1.logo {
+    text-align: center;
+}
+
+a.menu {
+    position: relative;
+    top: -70px;
+}
+
+a.score {
+    position: relative;
+    top: -70px;
+    left: -20px;
+    float: right;
+    /*padding: 0px 0px 10px 0px;*/
+}
+
+button.menu_button{
+    width: 40px;
+    height: 35px;
+    background: url("image/menu_button.PNG") no-repeat;
+    background-size: 40px 35px;
+    border: none;
+}
+
+button.score_button{
+    width: 57px;
+    height: 25px;
+    background: white;
+    background-size: 57px 25px;
+    font-size: medium;
+    color: rgb(37, 101, 208);
+    font-weight: bold;
+    border: none;
+}
